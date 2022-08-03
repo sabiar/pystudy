@@ -21,3 +21,12 @@ def print_numbers(startnumber):
     print (reversed_string)
 
 reverse_string('Sabina')  # 'anibaS'
+
+
+def my_substr(string, number):
+    i = 0
+    newstring = ''
+    while i <= number - 1:
+        newstring = f'{newstring}{string[i]}'
+        i += 1
+    return newstring
